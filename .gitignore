@@ -1,0 +1,68 @@
+# ==============================
+# Terraform
+# ==============================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Ignore terraform variable files (if they contain secrets)
+*.auto.tfvars
+terraform.tfvars
+terraform.tfvars.json
+
+# ==============================
+# Kubernetes
+# ==============================
+kubeconfig
+*.kubeconfig
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# Docker
+# ==============================
+*.tar
+docker-compose.override.yml
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Temporary Files
+# ==============================
+tmp/
+temp/
